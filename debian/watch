@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-chainsaw-$1/ \
+ https://github.com/substack/node-chainsaw/tags .*/archive/.*/v?([\d\.]+).tar.gz
